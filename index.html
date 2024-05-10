@@ -7,20 +7,26 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
+<div class="container">
+    <div class="title-div">
+        <h1>Boolitalia</h1>
+        <h3>Il nostro motto: ci scusiamo per il disagio</h3>
+    </div>
 
-    <div class="form">
+    <div class="form" class="mb">
         <label for="">Insersci il numero di km che vuoi percorrere</label>
-        <input type="text" name="" id="user-km">
+        <input type="text" name="" id="user-km" class="mb">
         <label for="">Inserisci la tua età</label>
-        <input type="text" name="" id="user-age">
+        <input type="text" name="" id="user-age" class="mb">
         <button type="button">Calcola il prezzo del biglietto</button>
     </div>
 
     <div class="ticket-info">
-        <p>Vuoi percorrere <span id="km-display"></span></p>
-        <p>La tua età è <span id="age-display"></span></p>
-        <p>Il prezzo del biglietto è: <span id="final-price"></span></p>
+        <p class="mb">Vuoi percorrere: <span id="km-display"></span></p>
+        <p class="mb">La tua età è: <span id="age-display"></span></p>
+        <p class="mb">Il prezzo del biglietto è: <span id="final-price"></span></p>
     </div>
+</div>
 
     <script src="script.js"></script>
 </body>

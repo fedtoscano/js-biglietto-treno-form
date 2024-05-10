@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: tomato;
+    font-family: Verdana, sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.title-div{
+    margin-top: 3em;
+    color: white;
+}
+.form{
+height: 40%;
+display: flex;
+flex-direction: column;
+align-items: start;
+margin-top: 3em;
+margin-bottom: 4em;
+color: white;
+}
+
+.mb{
+    margin-bottom: 1.5em;
+}
+
+button{
+    padding: .5em 1em;
+    background-color: coral;
+    border: none;
+    color: white;
+    font-size: 1.3em;
+    border-radius: 10px;
+}
